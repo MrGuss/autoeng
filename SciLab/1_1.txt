@@ -1,0 +1,24 @@
+
+X = 1/2 + 0.81 * sin(0.5);
+Y = cos(%pi/2) + 5 * sin(%pi/3) + 2 * cos(5/4);
+Z = (X + Y) / 2;
+
+disp(X, Y, Z)
+
+// long
+
+format(16);
+
+disp(X, Y, Z)
+
+// short
+
+format(6);
+
+disp(X, Y, Z)
+
+// с мантиссой
+
+format("e", 8);
+
+disp(X, Y, Z)
